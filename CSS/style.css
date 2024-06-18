@@ -102,3 +102,22 @@ body{
     margin-left: 20px;
     height: 15px;
 }
+
+/* segunda fase of project */
+.main-bg{
+    grid-area:image1;
+    min-height: 250px;
+    height: 100%;
+    background-image: url("../images/image-about-dark.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main-about{
+    grid-area: about;
+}
+.main-bg-second{
+    grid-area: image2;
+    background-image: url("../images/image-about-light.jpg");
+}
